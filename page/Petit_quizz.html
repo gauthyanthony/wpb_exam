@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un petit quizz</title>
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/general.css">
+    <link rel="stylesheet" href="../assets/css/quizz.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">La pollution</a></li>
+                <li><a href="types_pollution.html">Types</a></li>
+                <li><a href="form_inscrip.html">S'enregistrer</a></li>
+                <li><a href="form_login.html">S'identifier</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="Quizz">
+        <h1>Voici un petit quizz</h1>
+
+        <article class="audio">
+            <p>Une musique pour apaiser notre conscience</p>
+            <audio controls src="../assets/audio/apaisant.mp3"></audio>
+        </article>
+
+        <article class="quest1">
+            <h2>Première question : </h2>
+            <p>Où peut-on trouver de la pollution?</p>
+            <ul class="quest">
+                <li><input type="radio" name="reponse" id="reponse1" value="Air">  Dans l'air</li>
+                <li><input type="radio" name="reponse" id="reponse2" value="Sol">  Dans le sol</li>
+                <li><input type="radio" name="reponse" id="reponse3" value="Eau">  Dans l'eau</li>
+                <li><input type="radio" name="reponse" id="reponse4" value="Tous">  Tous les 3</li>
+            </ul>
+        </article>
+
+        <article class="quest2">
+            <h2>Deuxième question : </h2>
+            <p>Lequel de ces polluants ne s'infiltre pas dans le sol?</p>
+            <ul class="quest">
+                <li><input type="radio" name="reponse" id="reponse1" value="fuite">  Fuite de produit radioactif</li>
+                <li><input type="radio" name="reponse" id="reponse2" value="engais">  Les engrais</li>
+                <li><input type="radio" name="reponse" id="reponse3" value="plastique">  Déchets en plastique</li>
+            </ul>
+        </article>
+
+        <article class="quest3">
+            <h2>Troisième question : </h2>
+            <p>Qu'est-ce que la pollution ondulatoire?</p>
+            <ul class="quest">
+                <li><input type="radio" name="reponse" id="reponse1" value="son">  Le son</li>
+                <li><input type="radio" name="reponse" id="reponse2" value="chaleur">  La chaleur</li>
+                <li><input type="radio" name="reponse" id="reponse3" value="pesticide">  Les pesticides</li>
+            </ul>
+        </article>
+
+        <article classe="boutton">
+            <button type="submit">Valider</button>
+            <button type="reset">Réinitialiser</button>
+        </article>
+    </main>
+
+    <footer>
+        <p class="note">
+            Note : Travail réalisé dans le cadre d'un cours.
+        </p>
+    </footer>
+</body>
+</html>
